@@ -1,0 +1,247 @@
+.hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/unnamed.png'), -webkit-linear-gradient(270deg, #161616, #2c2a55);
+  background-image: url('../images/unnamed.png'), linear-gradient(180deg, #161616, #2c2a55);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+}
+
+.send-money-iphone {
+  display: none;
+}
+
+.div-50 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-50.white-bg {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #fff;
+}
+
+.div-50._100 {
+  width: 100%;
+  background-color: #333346;
+  background-image: -webkit-linear-gradient(270deg, rgba(197, 32, 38, .87), rgba(197, 32, 38, .87)), url('../images/section-autosteer2x.jpg');
+  background-image: linear-gradient(180deg, rgba(197, 32, 38, .87), rgba(197, 32, 38, .87)), url('../images/section-autosteer2x.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.heading {
+  line-height: 44px;
+  font-weight: 300;
+}
+
+.hero-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 320px;
+  margin-right: 50px;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  background-color: #438dd1;
+  background-image: -webkit-linear-gradient(270deg, #c52026, #c52026);
+  background-image: linear-gradient(180deg, #c52026, #c52026);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.text-block {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.space-20 {
+  width: auto;
+  height: 20px;
+  font-size: 14px;
+}
+
+.space-20._1 {
+  margin-top: 100px;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-4 {
+  margin-left: 100px;
+}
+
+.heading-2 {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text-span {
+  font-size: 14px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.text-block-2 {
+  text-decoration: none;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    margin-top: 60px;
+    font-size: 32px;
+  }
+  .space-20._1 {
+    margin-top: auto;
+  }
+  .heading-2 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 479px) {
+  .div-50.white-bg {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  .heading {
+    line-height: 34px;
+  }
+  .text-block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+}
+
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa 300';
+  src: url('../fonts/fa-light-300.woff2') format('woff2'), url('../fonts/fa-light-300.eot') format('embedded-opentype'), url('../fonts/fa-light-300.woff') format('woff'), url('../fonts/fa-light-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
