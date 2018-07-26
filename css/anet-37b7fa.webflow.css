@@ -63,10 +63,10 @@
 .div-50._100 {
   width: 100%;
   background-color: #333346;
-  background-image: -webkit-linear-gradient(270deg, rgba(197, 32, 38, .87), rgba(197, 32, 38, .87)), url('../images/another-set-of-eyes-deep-learning-risk-assessment.png');
-  background-image: linear-gradient(180deg, rgba(197, 32, 38, .87), rgba(197, 32, 38, .87)), url('../images/another-set-of-eyes-deep-learning-risk-assessment.png');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-image: -webkit-linear-gradient(270deg, #2c2a55, rgba(44, 42, 85, 0)), -webkit-linear-gradient(270deg, rgba(253, 95, 68, .82), rgba(253, 95, 68, .82)), url('../images/another-set-of-eyes-deep-learning-risk-assessment.png');
+  background-image: linear-gradient(180deg, #2c2a55, rgba(44, 42, 85, 0)), linear-gradient(180deg, rgba(253, 95, 68, .82), rgba(253, 95, 68, .82)), url('../images/another-set-of-eyes-deep-learning-risk-assessment.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
 }
 
 .body {
@@ -126,12 +126,16 @@
   flex: 0 0 auto;
   border-radius: 100px;
   background-color: #438dd1;
-  background-image: -webkit-linear-gradient(270deg, #c52026, #c52026);
-  background-image: linear-gradient(180deg, #c52026, #c52026);
+  background-image: -webkit-linear-gradient(270deg, #fd5f44, #fd5f44);
+  background-image: linear-gradient(180deg, #fd5f44, #fd5f44);
   color: #fff;
   font-size: 15px;
   font-weight: 300;
   text-decoration: none;
+}
+
+.div-block-2:hover {
+  background-color: #2c2a55;
 }
 
 .text-block {
@@ -186,6 +190,10 @@
 
 .link-block {
   text-decoration: none;
+}
+
+.link-block:hover {
+  background-color: transparent;
 }
 
 .link {
